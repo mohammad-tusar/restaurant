@@ -1,0 +1,462 @@
+
+/***********************************************************************************************/
+/*  Responsive/adaptive stuff */
+/***********************************************************************************************/
+/** 1280* 1320 **/
+@media only screen and (min-width: 1280px) and (max-width: 1320px){
+.slicknav_menu{
+  display: none;
+}
+.welcome-area h2 {
+  width: 34% !important;
+}
+.welcome-area p {
+  width: 34% !important;
+}  
+.main-slider {
+  height: 740px;
+}
+.section-main-body {
+  height: 575px;
+}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1279px){
+
+.sub-body-heading h3 {
+  font-size: 15px;
+  margin: 21px 0 16px;
+}
+.follow {
+  margin-left: 15%;
+}
+
+}
+
+@media only screen and (min-width: 981px) and (max-width: 991px){
+.slicknav_menu{
+  display: none;
+}
+.section-sub-body {
+  height: auto;
+}
+.follow {
+  float: left !important;
+  margin-left: 26%;
+}
+
+
+}
+
+/** 980* 1280 **/
+@media only screen and (min-width: 960px) and (max-width: 980px){
+.slicknav_menu{
+  display: none;
+}
+
+.section-sub-body {
+  height: auto;
+}
+.follow {
+  float: left !important;
+  margin-left: 26%;
+}
+	
+}
+
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and(max-width:959px){
+.slicknav_menu{
+  display: none;
+}	
+.ul-footer-middle li a {
+  display: block;
+  margin-right: 12px;
+}
+.top-menu li a {
+  font-size: 10px;
+  margin-right: 9px;
+}
+.logo img {
+  margin: 10px 0;
+  max-width: 100%;
+}
+.right-bottom {
+  margin-top: 15px;
+}
+.welcome-area h2 {
+  bottom: 31px;
+  font-size: 23px;
+}
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers)  800*1280 , 768*1024 */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+.slicknav_menu{
+  display: none;
+}	
+.welcome-area h2 {
+  bottom: 70px;
+  font-size: 18px;
+  width: 45%;
+}
+.ul-footer-middle li a {
+  display: block;
+  margin-right: 12px;
+}
+.welcome-area p {
+  bottom: 110px;
+  font-size: 13px;
+  width: 45%;
+}
+.top-menu li a {
+  font-size: 10px;
+  margin-right: 9px;
+}
+.logo img {
+  margin: 10px 0;
+  max-width: 100%;
+}
+.right-bottom {
+  margin-top: 15px;
+}
+
+.section-sub-body {
+  height: auto;
+}
+.follow {
+  float: left !important;
+  margin-left: 26%;
+}
+
+
+}
+/* All Mobile Sizes (devices and browser) 360*640 */
+@media only screen and (max-width: 767px) {
+.slicknav_menu{
+  display: block;
+}	
+.section-mainmenu{
+	display: none;
+}
+
+.section-sub-body {
+  height: auto;
+}
+.follow {
+  margin-left: 0;
+  margin-right: 2%;
+}
+.guarentee {
+  padding-top: 0;
+  padding-bottom: 30px;
+}
+.bedroom {
+  padding-top: 5%;
+  padding-bottom: 30px;
+}
+
+
+
+}
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.slicknav_menu{
+  display: block;
+}
+.section-mainmenu{
+  display: none;
+}
+.logo img {
+  display: block;
+  margin: 10px auto;
+  max-width: 100%;
+  padding-left: 40px;
+}
+.top-menu {
+  margin: 15px 0 0;
+  text-align: center;
+  float: none;
+}
+.top-menu li {
+  display: inline-block;
+  float: none;
+}
+.top-menu li a {
+  font-size: 10px;
+}
+.temp {
+  float: none;
+  margin-top: 13px;
+  text-align: center;
+}
+.right-bottom {
+  display: block;
+  float: none;
+  margin: 15px auto 0;
+  overflow: hidden;
+  width: 57%;
+}
+.small-ul {
+  margin: 0;
+  min-height: 18px;
+  padding: 0;
+  text-align: center;
+}
+.small-ul li {
+  color: #fff;
+  display: inline-flex;
+  margin-right: 15px;
+  float: none;
+}
+.header-right-area {
+  float: none;
+}
+
+
+
+
+
+.datepicker-form {
+  padding: 15px 10px 10px;
+  width: 200px;
+}
+.form-area .glyphicon {
+  float: left;
+  font-size: 17px;
+  left: 124px;
+  margin-bottom: 20px;
+  margin-left: 4px;
+  position: relative;
+  top: -22px;
+  display: none;
+}
+.Zebra_DatePicker_Icon_Wrapper {
+  width: 70px;
+}
+button.Zebra_DatePicker_Icon {
+  left: 125px !important;
+  z-index: 100 !important;
+}
+label {
+  float: left;
+  font-size: 9px;
+  margin-bottom: 4px;
+  margin-right: 5px;
+  padding-top: 7px;
+}
+.form-group {
+  display: block;
+  height: 40px;
+  margin-bottom: 0;
+  margin-right: 10px;
+  overflow: hidden;
+}
+.group-60{
+  height: 60px;
+}
+
+
+
+.welcome-area h2 {
+  bottom: 5px;
+  font-size: 16px;
+  padding: 10px;
+  width: 60%;
+}
+.main-slider {
+  height: 550px;
+}
+.section-main-body {
+  height: 311px;
+  position: relative;
+}
+footer .col-xs-12 {
+  margin-bottom: 30px;
+}
+.footer-right > p {
+  float: left;
+}
+.ul-footer-right li {
+  float: left;
+}
+.ul-footer-right li:first-child a{
+  margin-left: 0;
+}
+.hideshow {
+  display: none !important;
+}
+
+
+
+.ul-dropdown {
+  background: rgba(11, 22, 38, 0.8) none repeat scroll 0 0;
+  left: 0px;
+  padding-left: 0;
+  position: relative;
+  z-index: 1;
+}
+.mainmenu li:hover .ul-dropdown{
+  left: 0px;
+  position: relative;
+}
+.ul-dropdown li a {
+  width: 100%;
+}
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) 320*480  */
+@media only screen and (max-width: 479px) {
+.slicknav_menu{
+  display: block;
+}
+.section-mainmenu{
+	display: none;
+}
+.logo img {
+  display: block;
+  margin: 10px auto;
+  max-width: 85%;
+  padding-left: 40px;
+}
+.top-menu {
+  float: none;
+  margin: 10px 0 0;
+  text-align: center;
+}
+.top-menu li {
+  display: inline-block;
+  float: none;
+}
+.top-menu li a {
+  font-size: 10px;
+}
+.temp {
+  float: none;
+  margin-top: 10px;
+  text-align: center;
+}
+.right-bottom {
+  margin-top: 15px;
+}
+.right-bottom {
+  float: none;
+}
+.small-ul {
+  margin: 0;
+  min-height: 18px;
+  padding: 0;
+  text-align: center;
+}
+.small-ul li {
+  color: #fff;
+  display: inline-flex;
+  margin-right: 15px;
+  float: none;
+}
+
+
+.datepicker-form {
+  padding: 15px 10px 10px;
+  width: 200px;
+}
+.form-area .glyphicon {
+  display: none;
+  float: left;
+  font-size: 17px;
+  left: 124px;
+  margin-bottom: 20px;
+  margin-left: 4px;
+  position: relative;
+  top: -22px;
+}
+.Zebra_DatePicker_Icon_Wrapper {
+  width: 70px;
+}
+button.Zebra_DatePicker_Icon {
+  left: 125px !important;
+  z-index: 100 !important;
+}
+label {
+  float: left;
+  font-size: 9px;
+  margin-bottom: 4px;
+  margin-right: 5px;
+  padding-top: 7px;
+}
+.form-group {
+  display: block;
+  height: 40px;
+  margin-bottom: 0;
+  margin-right: 10px;
+  overflow: hidden;
+}
+.group-60{
+  height: 60px;
+}
+
+
+.welcome-area h2 {
+  bottom: 10px;
+  font-size: 16px;
+  padding: 10px;
+  width: 90%;
+}
+.main-slider {
+  height: 550px;
+}
+.section-main-body {
+  height: 309px;
+  position: relative;
+}
+footer .col-xs-12 {
+  margin-bottom: 30px;
+}
+.footer-right > p {
+  float: left;
+}
+.ul-footer-right li {
+  float: left;
+}
+.ul-footer-right li:first-child a{
+  margin-left: 0;
+}
+
+.hideshow {
+  display: none !important;
+}
+
+
+
+
+.ul-dropdown {
+  background: rgba(11, 22, 38, 0.8) none repeat scroll 0 0;
+  left: 0px;
+  padding-left: 0;
+  position: relative;
+  z-index: 1;
+}
+.mainmenu li:hover .ul-dropdown{
+  left: 0px;
+  position: relative;
+}
+.ul-dropdown li a {
+  width: 100%;
+}
+
+/** index2 */
+.ul-footer-right.def li a {
+  margin-left: 6px;
+}
+.footer-right.fan > p {
+  text-align: left;
+}
+.sub-body-room .btn.btn-info {
+  font-size: 16px;
+}
+.main-slider.dex2 {
+  height: auto;
+}
+
+}
